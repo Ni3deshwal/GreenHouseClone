@@ -149,15 +149,55 @@
 #pg41{
     width: 50%;
     border: 1px solid black;
-    height: 100%
-    
+    height: 100%    
+}
+#txt4>p:first-child{
+    font-size: 46px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #15372c;
+    margin-top: 50px;  
+    margin-bottom: 20px;
+   }
+   #txt4{
+    width: 75%;
+    margin: auto;
+    margin-top: 120px; 
+    margin-left: 120px;
+  }
+  #txt4>p:nth-child(2) {
+    font-size: 19px;
+    font-weight: 400;
+    color: #15372c;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    word-spacing: 2px;
+    text-align: left;
+    width: 85%
+   }
+   #txt4>button {
+    border-radius: 18px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    width: 30%;
+    margin-top: 30px;
+    background-color: #008561;
+    border: none;
 }
 #pg42{
     width: 50%;
-    
-    border: 1px solid blue;
-    height: 100%
-    
+     border: 1px solid blue;
+    height: 100%   
+}
+.img42>img{
+    width: 100%;
+    height: 100%;
+}
+.img42{
+    height: 100%;
 }
 #page5{
     width: 100%;
@@ -167,17 +207,71 @@
 }
 #pg51{
     width: 50%;
+    background-color: #15372c;
     border: 1px solid black;
-    height: 100%
+    height: 100%;
     
 }
 #pg52{
     width: 50%;
-    
     border: 1px solid blue;
-    height: 100%
-    
+    height: 100% 
+      
 }
+#txt51>p:first-child {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4cb398; 
+    margin-top: 70px; 
+    margin-left: 128px;
+    margin-bottom: 30px;
+   }
+   #txt51>p:nth-child(2){
+       font-size: 46px;
+       font-weight: 300;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color: #ffffff;
+       margin-top: 10px;  
+       margin-bottom: 20px;
+       line-height: 54px;
+       width: 50%;
+       margin-left: 128px;
+       width: 70%;
+      }
+#txt5>p:first-child {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008561; 
+    margin-top: 110px; 
+   }
+   #txt5>p:nth-child(2){
+       font-size: 34px;
+       font-weight: 400;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color: #15372c;
+       margin-top: 10px;  
+       margin-bottom: 20px;
+       line-height: 43px;
+       width: 85%;
+      }
+      #txt5>p:last-child {
+       font-size: 15px;
+       font-weight: 400;
+       color: #15372c;
+       font-family:Arial, Helvetica, sans-serif;
+       line-height: 24px;
+       word-spacing: -1.5px;
+       text-align: justify;
+       width: 92%;
+       width: 85%;
+      }
+   #txt5{
+     width: 75%;
+     margin: auto;
+     margin-top: 50px; 
+   }
 #page6{
     width: 100%;
     height: 540px;
@@ -191,11 +285,58 @@
     
 }
 #pg62{
-    width: 50%;
-    
+    width: 50%; 
     border: 1px solid blue;
-    height: 100%
-    
+    height: 100%   
+}
+#txt6>p:first-child {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008561; 
+    margin-top: 150px; 
+    margin-left: 40px;
+   }
+   #txt6>p:nth-child(2){
+    font-size: 34px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #15372c;
+    margin-top: 10px;  
+    margin-bottom: 20px;
+    line-height: 43px;
+    width: 85%;
+    margin-left: 40px;
+   }
+   #txt6>p:last-child {
+    font-size: 15px;
+    font-weight: 400;
+    color: #15372c;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    word-spacing: -1.5px;
+    text-align: justify;
+    width: 92%;
+    width: 85%;
+    margin-left: 40px;
+   }
+   #txt6{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px; 
+  }
+  #txt6>button {
+    border-radius: 18px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    width: 30%;
+    margin-top: 30px;
+    background-color: #008561;
+    border: none;
+    margin-left: 40px;
 }
 #page7{
     width: 100%;
