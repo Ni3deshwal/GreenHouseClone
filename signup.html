@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      .container > div {
+        width: 50%;
+        padding: 0;
+      }
+      .leafImg {
+        width: 100%;
+      }
+      .content {
+        margin: 15%;
+      }
+
+      .greenhouse-logo {
+        margin-top: 20px;
+        width: 80%;
+      }
+      .title {
+        width: 80%;
+        font-size: 60px;
+        text-align: center;
+        color: teal;
+      }
+
+      label {
+        font-size: 25px;
+      }
+
+      .input_for_name,
+      .input_for_email,
+      .input_for_password {
+        width: 94%;
+        padding: 3%;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        border: 1px solid rgb(105, 104, 104);
+        border-radius: 10px;
+      }
+
+      .name-error,
+      .email-error,
+      .password-error {
+        margin-top: -10px;
+        margin-bottom: 20px;
+        width: 96%;
+        border: 1px solid rgb(105, 104, 104);
+        color: rgb(109, 107, 107);
+        background-color: rgb(254, 252, 221);
+        padding: 2%;
+      }
+
+      .name-error {
+        display: none;
+      }
+      .email-error {
+        display: none;
+      }
+      .password-error {
+        display: none;
+      }
+
+      .submitBtn {
+        width: 60%;
+        height: 46px;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+        background-color: #3574d6;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      .submitBtn:hover {
+        background-color: #1c5cc3;
+      }
+
+      @media all and (max-width: 600px) {
+        .leafDiv {
+          display: none;
+        }
+        .container > div {
+          width: 80%;
+        }
+        .title {
+          font-size: 40px;
+        }
+        .content {
+          margin: 5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leafDiv">
+        <img
+          src="https://images.pexels.com/photos/6393342/pexels-photo-6393342.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="leaf"
+          class="leafImg"
+        />
+      </div>
+      <div>
+        <div class="content">
+          <img
+            src="https://recruiting.cdn.greenhouse.io/assets/sessions/iconGhr-46ff84da0055c0a9c2fb059555057583cbda14599c08baf319475bc337a82543.png"
+            alt=""
+            class="greenhouse-logo"
+          />
+          <div class="title"><p>Signup</p></div>
+          <form class="signupform">
+            <label for="Name" class="lvl">Enter Your Name</label><br />
+            <input type="text" class="input_for_name" placeholder="Name" />
+            <div class="name-error">Please enter your name</div>
+            <label for="email" class="lvl">Enter email</label><br />
+            <input type="email" class="input_for_email" placeholder="Email" />
+            <div class="email-error">Please enter your email</div>
+            <label for="Password" class="lvl">Enter password</label><br />
+            <input
+              type="password"
+              class="input_for_password"
+              placeholder="Password"
+            />
+            <div class="password-error">Invalid password</div>
+            <input type="submit" class="submitBtn" value="Create Account" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  let userDataArr = JSON.parse(localStorage.getItem("ghUserData")) || [];
+
+  document
+    .querySelector(".signupform")
+    .addEventListener("submit", validateForm);
+
+  function validateForm(event) {
+    event.preventDefault();
+    let name = document.querySelector(".input_for_name").value;
+    let email = document.querySelector(".input_for_email").value;
+    let password = document.querySelector(".input_for_password").value;
+
+    if (name == "") {
+      document.querySelector(".name-error").style.display = "block";
+    } else if (email == "") {
+      document.querySelector(".email-error").style.display = "block";
+    } else if (password == "") {
+      document.querySelector(".password-error").style.display = "block";
+    } else {
+      console.log("all is good");
+      getUserData();
+    }
+  }
+
+  function getUserData() {
+    let obj = {};
+    obj.name = document.querySelector(".input_for_name").value;
+    obj.email = document.querySelector(".input_for_email").value;
+    obj.password = document.querySelector(".input_for_password").value;
+    userDataArr.push(obj);
+
+    localStorage.setItem("ghUserData", JSON.stringify(userDataArr));
+
+    alert("Signup Successful");
+
+    window.location.href = "signin.html";
+  }
+</script>
