@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  
+    <!-- <link  href="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="> -->
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif;; */
+    font-family: 'Alkalami', serif;
+}
+ .main{
+    /* max-width: 1170px; */
+ max-width: 900px;
+    margin: auto;
+} 
+.main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color:#15312c ;
+    color:white;
+    padding: 70px 0;
+}
+.box{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 2%;
+   
+}
+.box h4{
+    font-size: 25px;
+    color: #45B398;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.box h4::before{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.box ul li:not(:last-child){
+    margin-bottom: 10px;
+    font-weight: 300px;
+   
+}
+.box ul li{
+    list-style: none;
+}
+.box ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+   display: block;
+  
+}
+.box ul li a:hover{
+    text-decoration: underline;
+}
+@media (max-width:767px) {
+.box{
+    width: 50%;
+    /* width: 30%; */
+    margin-bottom: 30px;
+}
+.bottom{
+    width:50% ;
+}
+}
+@media (max-width:574px) {
+.box{
+    width: 100%;
+    
+}
+
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+}
+.bottom{
+    /* max-width: 1170px; */
+ max-width: 300px;
+    margin: auto;
+    margin-top: -6px;
+} 
+.add{
+margin-top: 20px;
+}
+.left h4{
+    font-size: 20px;
+   
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.left h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+.left input{
+    width: 100%;
+    padding: 15px;
+   
+    border-radius: 5px;
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+}
+.left button:hover{
+    border: 1px solid #45B398;
+    cursor: pointer;
+
+}
+.left button{
+    width: 160px;
+    padding: 15px;
+   font-size: 20px;
+    border-radius: 30px;
+   color: white;
+    background-color:#15312c ;
+    border:1px solid white;
+    
+}
+p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.cookies{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+   
+}
+.cookies>div{
+    margin-left: 40px;
+}
+.cookies a{
+  margin: -10%;
+   text-decoration: underline;
+  padding-left: 50px;
+  color: white;
+  
+}
+.cookies a:hover{
+    text-decoration: none;
+}
+.icon{margin-top: 20px;
+    margin-left: 14%;
+    width: 800px;
+}
+.icon a{
+    color:#15312c;
+    padding: 6px;
+    font-size: 20px;
+    background-color: #45B398;
+    border-radius: 50%;
+      margin: 5px;
+}
+
+   </style>
+</head>
+<body>
+<footer class="footer">
+<div class="container ">
+    <div class="main">
+       
+         
+         <div class="box">
+            <h4>Products</h4>
+            <ul>
+                <li>
+                 <a href="#"> Recruiting</a>
+                </li>
+                <li>
+                 <a href="#">Onboarding</a>
+                </li> 
+                <li>
+                 <a href="#">Pricing</a>
+                </li>  
+               
+              </ul>
+         </div>
+         <div class="box">
+            <h4>Resources</h4>
+            <ul>
+                <li>
+                 <a href="#">Blog</a>
+                </li>
+                <li>
+                 <a href="#">Guidance</a>
+                </li> 
+                <li>
+                 <a href="#">Customer stories</a>
+
+                </li>  
+                <li>
+                    <a href="#">Hiring glossary</a>
+                    
+                   </li>  
+                   <li>
+                    <a href="#">Support</a>
+                    
+                   </li>  <li>
+                    <a href="#">Developer resources</a>
+                    
+                   </li>  
+               
+              </ul>
+         </div>
+         <div class="box">
+            <h4>About us</h4>
+            <ul>
+                <li>
+                 <a href="#"> Mission</a>
+                </li>
+                <li>
+                 <a href="#">Belonging</a>
+                </li> 
+                <li>
+                 <a href="#">Company</a>
+                </li> 
+                <li>
+                    <a href="#">Careers</a>
+                   </li>  
+                   <li>
+                    <a href="#">Press & awards</a>
+                   </li>  
+                   <li>
+                    <a href="#">Contact</a>
+                   </li>   
+               
+              </ul>
+         </div>
+         <div class="box">
+            <h4>Segements</h4>
+            <ul>
+                <li>
+                 <a href="#">Enterprise</a>
+                </li>
+                <li>
+                 <a href="#">Small to midsize</a>
+                </li> 
+                
+               
+              </ul>
+         </div>
+         <div class="box">
+           <h4>Solutions</h4>
+            <ul>
+                <li>
+                 <a href="#">Integrations</a>
+                </li>
+                <li>
+                 <a href="#">Structured hiring</a>
+                </li> 
+                <li>
+                 <a href="#">Talent sourcing</a>
+                </li>  
+                <li>
+                    <a href="#"> Candidate experience</a>
+                   </li>  
+                   <li>
+                    <a href="#">Diversity,equity & inclusion</a>
+                   </li>  
+                   <li>
+                    <a href="#">More solutions</a>
+                   </li>  
+                      
+              </ul>
+         </div> 
+         <div class="box">
+            <h4>Platform</h4>
+            <ul>
+                <li>
+                 <a href="#"> Recruiting</a>
+                </li>
+                <li>
+                 <a href="#">Onboarding</a>
+                </li> 
+                <li>
+                 <a href="#">Pricing</a>
+                </li>  
+               
+              </ul>
+         </div>
+         <div class="box">
+            <h4>Community</h4>
+            <ul>
+                <li>
+                 <a href="#"> Recruiting</a>
+                </li>
+                <li>
+                 <a href="#">Onboarding</a>
+                </li> 
+                <li>
+                 <a href="#">Pricing</a>
+                </li>  
+               
+              </ul>
+         </div>
+    </div>
+<div class="bottom">
+
+<div class="left">
+    <h4>Modern Recruiter newsletter</h4>
+    <h3>Our bi-weekly newsletter full of inspiration, podcasts, trends and news.</h3>
+    <h3 class="add">Email address</h3>
+    <input><br>
+    <button>Subscribe</button>
+</div>
+<div class="left">
+<p>Choose your language</p>
+<!-- <button>English (US)</button> -->
+<button>English(US)</button>
+
+</div>
+
+</div>
+
+
+<div class="cookies">
+    <div class="icon">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+     </div>
+<div>
+    <p>©2022 Greenhouse Software, Inc.<br>
+        “Hire for what’s next” and “Greenhouse Talent Makers” are trademarks of Greenhouse Software.</p>
+</div>
+
+<div>
+<a href="#">Cookies preferences</a>
+</div>
+<div><a href="#">Privacy policy</a></div>
+<div><a href="#">Terms of service</a></div>
+</div>
+
+</div>
+
+</footer>
+
+   </div> 
+</body>
+</html>
