@@ -40,8 +40,37 @@
             </div>
         </div>
         <div id="page3" class="block">
-            <div id="pg31"></div>
-            <div id="pg32"></div>
+            <div id="pg31">
+                <img src="https://sharp.services.greenhouse.io/production/Greenhouse-Onboarding-feedback-results.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=69579a5baea45f2ed14696fba5208bf946a9006269c549d87a70a7a6cdfe0a59" alt="1" id="changeimg">
+            </div>
+            <div id="pg32">
+                <p class="txt3">Set new hires up for success with Greenhouse Onboarding</p>
+
+                <div class="txt32">
+
+                <div class="txt321 bordersky clicked1"> 
+                    <div class="div321 clicked2"><img src="./resources/1st.jpeg" alt=""></div>
+                   <p>Integrate new hires into the team more quickly</p>
+                </div>
+                <div class="txt321 bordersky">
+                    <div class="div321"><img src="./resources/left-alignment-button.png" alt=""></div>
+                    <p>Design personal welcome experiences</p>
+                </div>
+                <div class="txt321 bordersky">
+                    <div class="div321"><img src="./resources/user.png" alt=""></div>
+                    <p>Apply consistent and fair processes</p>
+                </div>
+                <div class="txt321 bordersky">
+                    <div class="div321"><img src="./resources/list.png" alt=""></div>
+                    <p>Keep everything moving forward with automated tasks</p>
+                </div>
+                <div class="txt321">
+                    <div class="div321"><img src="./resources/refresh.png" alt=""></div>
+                    <p>Build a foundation for constant improvement</p>
+                </div>
+
+            </div>
+            </div>
         </div>
         <div id="page4" class="block">
             <div id="pg41">
@@ -169,3 +198,62 @@
     </div>
 </body>
 </html>
+
+<script>
+   var img_arr=["./resources/0.webp","./resources/1.webp","./resources/2.webp","./resources/3.webp","./resources/4.webp"];
+
+var target = document.querySelectorAll(".txt321");
+
+for(let i=0; i<img_arr.length; i++){
+
+    target[i].addEventListener("click",function(){
+        document.getElementById("changeimg").src = img_arr[i];
+    })
+}
+
+// on click
+
+ target.forEach((button) => {
+  button.addEventListener("click", function () {
+
+    target.forEach((button) => {
+      button.classList.remove("clicked1");
+      button.classList.remove("clicked2"); 
+    });
+
+    button.classList.add("clicked1");
+    button.classList.add("clicked2");
+  });
+});
+
+
+
+
+
+
+for(let i=0; i< target.length; i++){
+
+    
+// on hover
+
+    target[i].addEventListener("mouseover", function(){
+        mOver(target[i]);
+    });
+    target[i].addEventListener("mouseout", function(){
+        mOut(target[i]);
+    });
+}
+
+function mOver(x) {
+//    x.setAttribute("style", "background-color:blue;")
+   x.classList.add("hoverstyle");
+   x.childNodes[1].classList.add("nofilt");
+}
+
+function mOut(x) {  
+//    x.setAttribute("style", "background-color:green;")
+   x.classList.remove("hoverstyle");
+   x.childNodes[1].classList.remove("nofilt");
+}
+   
+</script>
