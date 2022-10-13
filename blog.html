@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        .GreenHouseBlog
+        {
+            width: 100%;
+            height: 100%;
+            /* border: 1px solid black; */
+        }
+        .container
+        {
+            display: flex;
+        }
+        .contentpart
+        {
+            width: 683px;
+            height: 870px;
+            margin-right: 2px;
+            /* border: 1px solid black; */
+            vertical-align: middle;
+        }
+        .child
+        {
+            width: 500px;
+            height: 300px;
+            margin: 320px 100px;
+            /* border: 1px solid black; */
+        }
+        .child p
+        {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
+            color: #008561
+        }
+        .child :nth-child(2)
+        {
+            font-size: 70px;
+            font-weight: 400;
+            width: 100%;
+            line-height: 74px;
+            font-family: "Untitled Serif", Georgia, serif;
+            color: #15372c;
+            margin: 1px 0px;  
+        }
+        .child :last-child
+        {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 27px;
+            font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
+            color: #008561
+        }
+        .imagepart
+        {
+            width: 683px;
+            height: 870px;  
+            /* border: 1px solid black;  */
+        }
+        .imagepart >img
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .allArticles
+        {
+            width:100%;
+            height:200px; 
+            margin-top: 100px;
+            /* border:1px solid black;   */
+        }
+        .article
+        {
+            width:1150px;
+            height:80px;
+            margin: 0px 95px;
+            /* border:1px solid black; */
+        }
+        .article p
+        {
+            font-size: 70px;
+            margin:auto;
+            font-weight: 400px;
+            line-height: 74px;
+            font-family: "Untitled Serif", Georgia, serif;
+            color: #15372c;   
+        }
+        .selectfilter
+        {
+            width:1150px;
+            height:80px;
+            margin: 36px 95px 0px 95px;
+            /* border:1px solid black; */
+            display: flex;  
+        }
+        .filter
+        {
+            width:250px;
+            float: left;
+            margin-left: 15px;
+            /* border:1px solid black; */
+        }
+        .filter select
+        {
+            padding: 15px 55px;
+            margin: auto;
+            margin-top: 13px;
+            border-radius: 15px;
+        }
+        .applyfilter
+        {
+            display: flex;
+            width: 230px;
+            height: 52%;
+            margin: auto;
+            margin-right: 0px;
+            margin-top: 37px;
+            /* border:1px solid black; */
+        }
+        #filterbtn
+        {
+            display: flex;
+        }
+        label
+        {
+            font-size: 15px;
+            margin:auto;
+            font-weight: 400px;
+            line-height: 15px;
+            font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
+            color: #15372c;  
+        }
+        #filterbtn button
+        {
+            margin: auto;
+            background-color: #008561;
+            padding: 14px 35px;
+            border-radius: 15px;
+            border-color: #d2d2d2;
+            border:none;
+            color: white;
+
+        }
+        #filterbtn :last-child p
+        {
+            margin: auto;
+            margin-left: 49px;
+            margin-top:10px; 
+            font-size: 16px;
+            color: #008561;
+            text-decoration: underline;
+        }
+        .data
+        {
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid black; */
+        }
+    </style>
+</head>
+<body>
+    <div class="GreenHouseBlog">
+        <div class="container">
+            <div class="contentpart">
+                <div class="child">
+                    <p>Greenhouse blog</p>
+                    <p>Find out what’s next in hiring</p>
+                    <p>Get the latest news, practitioner stories, hiring best practice in action and more on the Greenhouse blog.</p>
+                </div>
+            </div>
+            <div class="imagepart">
+                <img src="https://sharp.services.greenhouse.io/production/two-men-in-a-meeting.jpg?auto=format&fit=max&lossless=true&q=90&w=1440&s=1498f099543519b89aec0f97dc6c0776f33bb5b2513ce615b996b28af54aef94" alt="hiring">
+            </div>
+        </div>  
+        <div class="allArticles">
+            <div class="article">
+                <p>All articles</p>
+            </div>   
+            <div class="selectfilter">
+                <div class="filter">
+                    <label for="">Filter by topic</label><br>
+                    <select name="All topics" id="topics">
+                        <option value="All topics">All topics</option>
+                        <option value="Social Impect">Social Impect</option>
+                        <option value="Onboarding">Onboarding</option>
+                        <option value="Recruiting metrices">Recruiting metrices</option>
+                        <option value="Industry news">Industry news</option>
+                    </select>
+                </div>
+                <div class="applyfilter">
+                    <div id="filterbtn">
+                        <di><button>Apply Filters</button></di>
+                        <di><p>Clear</p></di>
+                   </div>
+                </div>
+            </div>   
+        </div>
+        <div class="data">
+        </div>
+    </div>
+</body>
+</html>
