@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
     crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Navigation</title>
+    <title>Home</title>
     <style>
         .navbar
         {
@@ -347,7 +347,7 @@
         .navbar .bttn
         {
             float: right;
-            padding-right: 50px;
+            /* padding-right: 50px; */
         }
          
         #sign
@@ -389,7 +389,7 @@
             width: 14px;
             max-height: 200px;
             background-image: url(../svg/logomark.svg);
-            margin-right: 32px;
+            margin-right: 22px;
             background-size: 100%;
         }
         #logo
@@ -406,8 +406,85 @@
         .search a
         {
             font-size: 19px;  
-            margin-left: 10px;  
+            margin-right:60px
         }
+        .toggle-button
+        {
+            position: absolute;
+            top: .75rem;
+            right: 1rem;
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 15px;
+            width: 40px;
+            height: 21px;
+        }
+      
+        .toggle-button .bar
+        {
+            height: 3px;
+            width: 100%;
+            background-color: black;
+            border-radius: 10px;
+        }
+        #sidebar
+        {
+            border: 2px solid green;
+            width: 40px;
+            height: 21px;
+            float: right;
+        }
+        @media(max-width: 1060px)
+        {
+          .toggle-button
+          {
+            display: flex;
+          }
+          .product
+          {
+            display: none;
+          }
+          .resource
+          {
+            display: none;
+          }
+          .about
+          {
+            display: none;
+          }
+          .community
+          {
+            display: none;
+          }
+          .sign_in
+          {
+            display: none;
+          }
+          .demo
+          {
+            display: none;
+          }
+          /* .navbar
+          {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .navbar ul
+          {
+            flex-direction: column;
+            width: 50%;
+          }
+          .navbar li
+          {
+            text-align: center;
+          }
+          .navbar.active
+          {
+            display: flex;
+          } */
+        }
+
     </style>
 </head>
 <body>
@@ -415,6 +492,11 @@
         <nav class="navbar"> 
             <ul>
                 <li class="nav_logo"><a href="https://www.greenhouse.io/" id="logo"><img src="https://www.greenhouse.io/assets/svg/logomark.svg" alt="logo"></a> </li>
+                <a href="#" class="toggle-button">
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                </a>
+               
 
                 <li class="product"><a href="#">Product & solutions</a>
                     <div id="productdrop">
@@ -598,5 +680,12 @@
             document.querySelector("#sign").style.background="#15372c";
             document.querySelector("#sign").style.border="1px solid white";
         }
+    }
+    document.getElementsByClassName("toggle-button")[0].addEventListener("click",dropdown)
+    function dropdown()
+    {
+        event.preventDefault();
+        document.getElementsByClassName("navbar")[0].classList.toggle('active');
+
     }
 </script>
