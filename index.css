@@ -2,18 +2,18 @@
     width: 100%;
     height: 680px;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #pg11{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%
     
 }
 #pg12{
     width: 50%;
     
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%    
 }
 .img12>img{
@@ -72,12 +72,12 @@
 #page2{
     width: 100%;
     height: 910px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg21{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%    
 }
 .img21>img{
@@ -87,7 +87,7 @@
 #pg22{
     width: 50%;
     
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100% 
 }
 #txt2>p:first-child{
@@ -129,12 +129,12 @@
 #page3{
     width: 100%;
     height: 850px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg31{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%
     
 }
@@ -144,7 +144,7 @@
 }
 #pg32{
     width: 50%; 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%
     
 }
@@ -234,12 +234,12 @@ background-color: #f8f8f8;
 #page4{
     width: 100%;
     height: 570px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg41{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%    
 }
 #txt4>p:first-child{
@@ -280,7 +280,7 @@ background-color: #f8f8f8;
 }
 #pg42{
     width: 50%;
-     border: 1px solid blue;
+     /* border: 1px solid blue; */
     height: 100%   
 }
 .img42>img{
@@ -293,19 +293,19 @@ background-color: #f8f8f8;
 #page5{
     width: 100%;
     height: 370px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg51{
     width: 50%;
     background-color: #15372c;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
     
 }
 #pg52{
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100% 
       
 }
@@ -366,18 +366,18 @@ background-color: #f8f8f8;
 #page6{
     width: 100%;
     height: 540px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg61{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%
     
 }
 #pg62{
     width: 50%; 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%   
 }
 #txt6>p:first-child {
@@ -435,12 +435,12 @@ background-color: #f8f8f8;
 #page7{
     width: 100%;
     height: 800px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg71{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%  
 }
 #txt71>p{
@@ -469,7 +469,7 @@ background-color: #f8f8f8;
 }
 #pg72{
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%   
 }
 #icon7{
@@ -495,13 +495,13 @@ background-color: #f8f8f8;
 #page8{
     width: 100%;
     height: 370px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg81{
     width: 50%;
     background-color: #15372c;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100% 
       
 }
@@ -528,7 +528,7 @@ background-color: #f8f8f8;
    }
 #pg82{
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%   
 }
 #txt82>p:first-child {
@@ -567,12 +567,12 @@ background-color: #f8f8f8;
 #page9{
     width: 100%;
     height: 470px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg91{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%    
 }
 #pg91>img{
@@ -581,7 +581,7 @@ background-color: #f8f8f8;
 }
 #pg92{
     width: 50%;  
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%    
 }
 #txt9>p:first-child {
@@ -637,12 +637,12 @@ background-color: #f8f8f8;
 #page10{
     width: 100%;
     height: 850px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 #pg101{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%   
 }
 #txt10>p:first-child{
@@ -683,11 +683,12 @@ background-color: #f8f8f8;
 }
 #pg102{
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100% 
 }
 #pg102>img:first-child{
     width: 100%;
+    
 }
 #img2{
 width: 260px;
@@ -700,7 +701,7 @@ cursor: pointer;
 #page11{
     width: 100%;
     height: 530px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     background-color: #113228;
 }
@@ -750,7 +751,7 @@ cursor: pointer;
         width: 100%;
         height: auto; 
         display: flex;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         flex-direction: column;
     }
     #pg11,#pg12{
@@ -772,7 +773,7 @@ cursor: pointer;
     #page2{
         width: 100%;
         height: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction:column-reverse;
     }
@@ -805,7 +806,7 @@ cursor: pointer;
     #page3{
         width: 100%;
         height: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column-reverse;
     }
@@ -815,7 +816,7 @@ cursor: pointer;
     #page4{
         width: 100%;
         height: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
     }
@@ -834,7 +835,7 @@ cursor: pointer;
     #page5{
         width: 100%;
         height: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
     }
@@ -847,7 +848,7 @@ cursor: pointer;
     #page6{
         width: 100%;
         height: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
     }
@@ -864,7 +865,7 @@ cursor: pointer;
     #page7{
         width: 100%;
         height: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
     }
@@ -882,6 +883,97 @@ cursor: pointer;
     margin-bottom: 50px;
     margin-left: 85px;
 
+    }
+    .card>img{
+        width: 70%;
+        height: auto;
+        margin-left: -70px;
+    }
+    #page8{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    #pg81,#pg82{
+        width: 100%;
+    }
+    #txt81>p:first-child {
+      
+        margin-top: 30px; 
+        margin-left: 80px;
+       }
+       #txt81>p:nth-child(2) {
+        margin-left: 80px;
+       }
+       #txt82>p:first-child {
+        margin-top: -20px;
+       }
+       #page9{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    #pg91,#pg92{
+        width: 100%;
+    }
+    #txt9>p:first-child {
+        margin-top: -10px;
+    }
+    #txt9>button {
+        margin-bottom: 40px;
+        width: 48%;
+    }
+    #page10{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    } 
+    #pg101,#pg102{
+        width: 100%;
+    }
+    #pg102{
+        height: auto;
+        margin-bottom: -200px;
+        /* background-color: #113228; */
+    }
+    #txt10>p:first-child{
+        margin-top: -85px;
+        font-size: 28px;
+    }
+    #txt10>button {
+        width: 40%;
+        margin-bottom: 50px;
+    }
+    #page11{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+    }
+    #txt11>p:first-child {
+        font-size: 38px;
+        font-weight: 400;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #ffffff;
+        margin-top:30px; 
+        margin-left: 90px;
+        margin-bottom: 30px;
+        width: 500px;
+       }
+       #txt11>button {
+        width: 60%;
+        margin-left: 80px;
+        margin-top: 10px;
+       }
+       #pic>img{
+        width: 500px;
+        height: 450px;
+        margin-left: -200px ;
     }
 }
 
