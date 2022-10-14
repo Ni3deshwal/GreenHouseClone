@@ -9,7 +9,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Home</title>
     <style>
-        .navbar
+        .nav-navbar
         {
             margin-top: -15px;
             margin-right:-10px;
@@ -17,11 +17,11 @@
             /* width: 100vw; */
         }
         
-        .navbar ul
+        .nav-navbar ul
         {
             overflow: auto;
         }
-        .navbar li
+        .nav-navbar li
         {
             float: left;
             list-style: none;
@@ -29,17 +29,17 @@
             font-family: Arial, Helvetica, sans-serif;
 
         }
-        .product a
+        .nav-product a
         {
             margin-left: -10px;
         }
-        .product :hover
+        .nav-product :hover
         {
             color:#008561;
             text-decoration: underline;
             
         }
-        #productdrop
+        #nav-productdrop
         {
             width: 100vw;
             height: 500px;
@@ -50,7 +50,7 @@
             display: flex;
             visibility: hidden;
         }
-        h5
+        .nav-navbar h5
         {
             color:#429c84;
             line-height: 13px;
@@ -64,7 +64,7 @@
         {
             margin:10px 10px 10px 110px;
         }
-        #productdrop .prod p
+        #nav-productdrop .prod p
         {
             color:white;
             line-height: 32px;
@@ -74,11 +74,11 @@
             margin: 7px 0px;
 ;
         }
-        .solution
+        .nav-solution
         {
             margin:10px 10px 10px 160px;
         }
-        .solution p
+        .nav-solution p
         {
             color:white;
             line-height: 32px;
@@ -87,7 +87,7 @@
             font-weight: 400;
             font-family: "Untitled Serif", Georgia, serif;
         }
-        #resourcedrop
+        #nav-resourcedrop
         {
             width: 100vw;
             height: 450px;
@@ -98,14 +98,14 @@
             display: flex;
             visibility: hidden;
         }
-        .resourcefirst
+        .nav-resourcefirst
         {
             margin:35px 10px 10px 110px;
             width: 34%;
             height: 60%;
             border-right: 1px solid #265f4e;
         }
-        .resourcefirst p
+        .nav-resourcefirst p
         {
             color:white;
             line-height: 32px;
@@ -114,20 +114,20 @@
             font-weight: 400;
             font-family: "Untitled Serif", Georgia, serif;    
         }
-        .resourcesecond
+        .nav-resourcesecond
         {
             display: flex;
             width: 66%;
             margin:63px 10px 10px 100px;
         }
-        .resourcesecond img
+        .nav-resourcesecond img
         {
             width:230px;
             height:225px;
             border-radius: 5px;
             margin-right: 70px;
         }
-        #review
+        #nav-review
         {
             padding:14px 35px;
             background-color: #15372c;
@@ -136,7 +136,7 @@
             border-radius: 25px; 
 
         }
-        .resource h5
+        .nav-resource h5
         {
             color:#429c84;
             line-height: 13px;
@@ -145,7 +145,7 @@
             font-weight: 400;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
         }
-        .resourcesecond p
+        .nav-resourcesecond p
         {
             color:white;
             font-size: 13px;
@@ -154,7 +154,7 @@
             width: 80%;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
         }
-        .resourcesecond :nth-child(2)
+        .nav-resourcesecond :nth-child(2)
         {
             color:white;
             font-size: 16px;
@@ -165,12 +165,12 @@
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;   
         }
 
-        .resource :hover
+        .nav-resource :hover
         {
             color:#008561;
             text-decoration: underline;
         }
-        #aboutdrop
+        #nav-aboutdrop
         {
             width: 100vw;
             height: 450px;
@@ -181,14 +181,14 @@
             display: flex;
             visibility: hidden;
         }
-        .aboutfirst
+        .nav-aboutfirst
         {
             margin:35px 10px 10px 110px;
             width: 34%;
             height: 60%;
             border-right: 1px solid #265f4e;
         }
-        .aboutfirst p
+        .nav-aboutfirst p
         {
             color:white;
             line-height: 32px;
@@ -197,20 +197,20 @@
             font-weight: 400;
             font-family: "Untitled Serif", Georgia, serif;    
         }
-        .aboutsecond
+        .nav-aboutsecond
         {
             display: flex;
             width: 66%;
             margin:63px 10px 10px 100px;
         }
-        .aboutsecond img
+        .nav-aboutsecond img
         {
             width:230px;
             height:225px;
             border-radius: 5px;
             margin-right: 70px;
         }
-        #review
+        #nav-review
         {
             padding:14px 35px;
             background-color: #15372c;
@@ -219,7 +219,7 @@
             border-radius: 25px; 
 
         }
-        .about h5
+        .nav-about h5
         {
             color:#429c84;
             line-height: 13px;
@@ -228,7 +228,7 @@
             font-weight: 400px;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
         }
-        .aboutsecond p
+        .nav-aboutsecond p
         {
             color:white;
             font-size: 13px;
@@ -237,7 +237,7 @@
             width: 80%;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
         }
-        .aboutesecond :nth-child(2)
+        .nav-aboutesecond :nth-child(2)
         {
             color:white;
             font-size: 16px;
@@ -247,13 +247,13 @@
             margin-top: -20px;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;   
         }
-        .about :hover
+        .nav-about :hover
         {
             color:#008561;
             text-decoration: underline;
             font-weight: bolder;
         }
-        #communitydrop
+        #nav-communitydrop
         {
             width: 100vw;
             height: 450px;
@@ -264,14 +264,14 @@
             display: flex;
             visibility: hidden;
         }
-        .communityfirst
+        .nav-communityfirst
         {
             margin:35px 10px 10px 110px;
             width: 34%;
             height: 60%;
             border-right: 1px solid #265f4e;
         }
-        .communityfirst p
+        .nav-communityfirst p
         {
             color:white;
             line-height: 32px;
@@ -280,13 +280,13 @@
             font-weight: 400;
             font-family: "Untitled Serif", Georgia, serif;    
         }
-        .communitysecond
+        .nav-communitysecond
         {
             display: flex;
             width: 66%;
             margin:63px 10px 10px 100px;
         }
-        .communitysecond img
+        .nav-communitysecond img
         {
             width:230px;
             height:225px;
@@ -302,7 +302,7 @@
             border-radius: 25px; 
 
         }
-        .community h5
+        .nav-community h5
         {
             color:#429c84;
             line-height: 13px;
@@ -311,7 +311,7 @@
             font-weight: 400;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
         }
-        .communitysecond p
+        .nav-communitysecond p
         {
             color:white;
             font-size: 13px;
@@ -320,7 +320,7 @@
             width: 80%;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
         }
-        .communitysecond :nth-child(2)
+        .nav-communitysecond :nth-child(2)
         {
             color:white;
             font-size: 16px;
@@ -330,21 +330,21 @@
             margin-top: -20px;
             font-family: "Untitled Sans", Arial, Helvetica, sans-serif;   
         }
-        .community :hover
+        .nav-community :hover
         {
             color:#008561;
             text-decoration: underline;
             font-weight: bolder;
         }
       
-        .navbar li a
+        .nav-navbar li a
         {
             padding: 3px 3px;
             text-decoration: none;
             color:#5c746c;
 
         }
-        .navbar .bttn
+        .nav-navbar .bttn
         {
             float: right;
             /* padding-right: 50px; */
@@ -366,7 +366,7 @@
             color: #044433; 
             font-weight: bolder;
         }
-        #Demo
+        #nav-Demo
         {
             padding:14px 35px;
             background-color: #3574d6;
@@ -377,7 +377,7 @@
             margin-left: -25px;
             margin-right: -30px;
         }
-        #Demo:hover
+        #nav-Demo:hover
         {
             background-color: #0862f3;
             font-weight: bolder;
@@ -403,7 +403,7 @@
             margin-left: -12px;
             margin-top: -5px;
         }
-        .search a
+        .nav-search a
         {
             font-size: 19px;  
             margin-right:60px
@@ -441,45 +441,46 @@
           {
             display: flex;
           }
-          .product
+
+          .nav-product
           {
             display: none;
           }
-          .resource
+          .nav-resource
           {
             display: none;
           }
-          .about
+          .nav-about
           {
             display: none;
           }
-          .community
+          .nav-community
           {
             display: none;
           }
-          .sign_in
+          .nav-sign_in
           {
             display: none;
           }
-          .demo
+          .nav-demo
           {
             display: none;
           }
-          /* .navbar
+          /* .nav-navbar
           {
             flex-direction: column;
             align-items: flex-start;
           }
-          .navbar ul
+          .nav-navbar ul
           {
             flex-direction: column;
             width: 50%;
           }
-          .navbar li
+          .nav-navbar li
           {
             text-align: center;
           }
-          .navbar.active
+          .nav-navbar.active
           {
             display: flex;
           } */
@@ -489,7 +490,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar"> 
+        <nav class="nav-navbar"> 
             <ul>
                 <li class="nav_logo"><a href="https://www.greenhouse.io/" id="logo"><img src="https://www.greenhouse.io/assets/svg/logomark.svg" alt="logo"></a> </li>
                 <a href="#" class="toggle-button">
@@ -498,8 +499,8 @@
                 </a>
                
 
-                <li class="product"><a href="#">Product & solutions</a>
-                    <div id="productdrop">
+                <li class="nav-product"><a href="#">Product & solutions</a>
+                    <div id="nav-productdrop">
                         <div class="prod">
                             <h5>Products</h5>
                             <a href="#"><p>Recruiting</p></a>
@@ -508,26 +509,26 @@
                             <a href="#"><p>Enterprise</p></a>
                             <a href="#"><p>Small to midsize</p></a>
                         </div>
-                        <div class="solution">
+                        <div class="nav-solution">
                             <h5>Solutions</h5>
                             <a href="#"><p>Integrations</p></a>
                             <a href="#"><p>Structured hiring</p></a>
                             <a href="#"><p>Talent sourcing</p></a>
                             <a href="#"><p>Candidate experience</p></a>
                             <a href="#"><p>Diversity, equity & inclusion</p></a>
-                            <a href="#"><p>More solutions</p></a>
+                            <a href="#"><p>Solutions</p></a>
                         </div>
                     </div>
                 </li>
-                <li class="resource"><a href="#">Resources</a>
-                    <div id="resourcedrop">
-                        <div class="resourcefirst">
+                <li class="nav-resource"><a href="#">Resources</a>
+                    <div id="nav-resourcedrop">
+                        <div class="nav-resourcefirst">
                             <a href="#"><p>Blog</p></a>
                             <a href="#"><p>Guidance</p></a>
                             <a href="#"><p>Customer stories</p></a>
                             <a href="#"><p>Hiring glossary</p></a>
                         </div>
-                        <div class="resourcesecond">
+                        <div class="nav-resourcesecond">
                             <div id="talentbook">
                                 <img src="https://sharp.services.greenhouse.io/production/Talent-Makers-book-cover-n.png?auto=format&fit=max&lossless=true&q=90&w=426&s=39652d73de16c7719a700214bce70d443705da7a6050c920b1c5a9cdbad2d60a" alt="book">
                             </div>
@@ -535,15 +536,15 @@
                                 <h5>Now available</h5>
                                 <p>Talent Makers – The definitive book on great hiring</p>
                                 <p>We’ve packed all our insights, strategies and tips into a book that will help you make hiring your superpower.</p>
-                                <a href="#"><button id="review">See the reviews</button></a>
+                                <a href="#"><button id="nav-review">See the nav-reviews</button></a>
 
                             </div>
                         </div>
                     </div>
                 </li>
-                <li class="about"><a href="#">About us</a>
-                    <div id="aboutdrop">
-                        <div class="aboutfirst">
+                <li class="nav-about"><a href="#">About us</a>
+                    <div id="nav-aboutdrop">
+                        <div class="nav-aboutfirst">
                             <a href="#"><p>Mission</p></a>
                             <a href="#"><p>Belonging</p></a>
                             <a href="#"><p>Company</p></a>
@@ -552,30 +553,30 @@
                             <a href="#"><p>Contact</p></a>
                             
                         </div>
-                        <div class="aboutsecond">
+                        <div class="nav-aboutsecond">
                             <div id="shirt">
                                 <img src="https://sharp.services.greenhouse.io/production/Greenhouse-Pride-tshirt-n.jpg?auto=format&fit=max&lossless=true&q=90&w=426&s=de44e24806b388901684135be6acb800917d827f4b3424eade2f1300c44d2177" alt="book">
                             </div>
                             <div id="men">
                                 <h5>Greenhouse celebrates Pride</h5>
                                 <p>Buy a shirt, help an LGBTQ+ teen</p>
-                                <p>We’re shining a spotlight on the LGBTQ+ community with our new Pride t-shirt. 100% of the proceeds are going to support The Trevor Project and the Ali Forney Center.</p>
-                                <a href="#"><button id="review">Get your Pride shirt</button></a>
+                                <p>We’re shining a spotlight on the LGBTQ+ nav-community with our new Pride t-shirt. 100% of the proceeds are going to support The Trevor Project and the Ali Forney Center.</p>
+                                <a href="#"><button id="nav-review">Get your Pride shirt</button></a>
 
                             </div>
                         </div>
                     </div>
                 </li>
-                <li class="community"><a href="#">Community</a>
-                    <div id="communitydrop">
-                        <div class="communityfirst">
+                <li class="nav-community"><a href="#">Community</a>
+                    <div id="nav-communitydrop">
+                        <div class="nav-communityfirst">
                             <a href="#"><p>Events</p></a>
                             <a href="#"><p>Open</p></a>
                             <a href="#"><p>Talent Makers</p></a>
                             <a href="#"><p>Newsletter
                             </p></a>
                         </div>
-                        <div class="communitysecond">
+                        <div class="nav-communitysecond">
                             <div id="news">
                                 <img src="https://sharp.services.greenhouse.io/production/Man-sitting-on-desk-while-working-on-laptop-with-a-botanical-plant-behind-nav-image-m.png?auto=format&fit=max&lossless=true&q=90&w=426&s=6f990170674a9382daa3a9fc3b920df65d1e9e7d9c7f931d57ec1cc13cfd9762" alt="news">
                             </div>
@@ -590,9 +591,9 @@
                     </div>
                 </li>
                 <div class="bttn">
-                    <li class="sign_in"><a href="#"><button id="sign">Sign in</button></a></li>
-                    <li class="demo"><a href="#"><button id="Demo">Request a demo</button></a></li>
-                    <li class="search" ><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="nav-sign_in"><a href="#"><button id="sign">Sign in</button></a></li>
+                    <li class="nav-demo"><a href="#"><button id="nav-Demo">Request a demo</button></a></li>
+                    <li class="nav-search" ><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                 </div>
             
             </ul>
@@ -601,82 +602,82 @@
 </body>
 </html>
 <script>
-    document.querySelector(".product").addEventListener("click",productdisplay)
-    function productdisplay()
+    document.querySelector(".nav-product").addEventListener("click",navproductdisplay)
+    function navproductdisplay()
     {
         event.preventDefault();
-        if(document.getElementById("productdrop").style.visibility=="visible")
+        if(document.getElementById("nav-productdrop").style.visibility=="visible")
         {
-            document.getElementById("productdrop").style.visibility="hidden";
-            document.querySelector(".navbar").style.background="white";
+            document.getElementById("nav-productdrop").style.visibility="hidden";
+            document.querySelector(".nav-navbar").style.background="white";
             document.querySelector("#sign").style.background="white";
             document.querySelector("#sign").style.border="1px solid black";
 
         }
         else
         {
-            document.getElementById("productdrop").style.visibility="visible";
-            document.querySelector(".navbar").style.background="#15372c";
+            document.getElementById("nav-productdrop").style.visibility="visible";
+            document.querySelector(".nav-navbar").style.background="#15372c";
             document.querySelector("#sign").style.background="#15372c";
             document.querySelector("#sign").style.border="1px solid white";
         }
     }
-    document.querySelector(".resource").addEventListener("click",resourcedisplay)
-    function resourcedisplay()
+    document.querySelector(".nav-resource").addEventListener("click",navresourcedisplay)
+    function navresourcedisplay()
     {
         event.preventDefault();
-        if(document.getElementById("resourcedrop").style.visibility=="visible")
+        if(document.getElementById("nav-resourcedrop").style.visibility=="visible")
         {
-            document.getElementById("resourcedrop").style.visibility="hidden";
-            document.querySelector(".navbar").style.background="white";
+            document.getElementById("nav-resourcedrop").style.visibility="hidden";
+            document.querySelector(".nav-navbar").style.background="white";
             document.querySelector("#sign").style.background="white";
             document.querySelector("#sign").style.border="1px solid black";
 
         }
         else
         {
-            document.getElementById("resourcedrop").style.visibility="visible";
-            document.querySelector(".navbar").style.background="#15372c";
+            document.getElementById("nav-resourcedrop").style.visibility="visible";
+            document.querySelector(".nav-navbar").style.background="#15372c";
             document.querySelector("#sign").style.background="#15372c";
             document.querySelector("#sign").style.border="1px solid white";
         }
     }    
-    document.querySelector(".about").addEventListener("click",aboutdisplay)
-    function aboutdisplay()
+    document.querySelector(".nav-about").addEventListener("click",navaboutdisplay)
+    function navaboutdisplay()
     {
         event.preventDefault();
-        if(document.getElementById("aboutdrop").style.visibility=="visible")
+        if(document.getElementById("nav-aboutdrop").style.visibility=="visible")
         {
-            document.getElementById("aboutdrop").style.visibility="hidden";
-            document.querySelector(".navbar").style.background="white";
+            document.getElementById("nav-aboutdrop").style.visibility="hidden";
+            document.querySelector(".nav-navbar").style.background="white";
             document.querySelector("#sign").style.background="white";
             document.querySelector("#sign").style.border="1px solid black";
 
         }
         else
         {
-            document.getElementById("aboutdrop").style.visibility="visible";
-            document.querySelector(".navbar").style.background="#15372c";
+            document.getElementById("nav-aboutdrop").style.visibility="visible";
+            document.querySelector(".nav-navbar").style.background="#15372c";
             document.querySelector("#sign").style.background="#15372c";
             document.querySelector("#sign").style.border="1px solid white";
         }
     }
-    document.querySelector(".community").addEventListener("click",communitydisplay)
-    function communitydisplay()
+    document.querySelector(".nav-community").addEventListener("click",navcommunitydisplay)
+    function navcommunitydisplay()
     {
         event.preventDefault();
-        if(document.getElementById("communitydrop").style.visibility=="visible")
+        if(document.getElementById("nav-communitydrop").style.visibility=="visible")
         {
-            document.getElementById("communitydrop").style.visibility="hidden";
-            document.querySelector(".navbar").style.background="white";
+            document.getElementById("nav-communitydrop").style.visibility="hidden";
+            document.querySelector(".nav-navbar").style.background="white";
             document.querySelector("#sign").style.background="white";
             document.querySelector("#sign").style.border="1px solid black";
 
         }
         else
         {
-            document.getElementById("communitydrop").style.visibility="visible";
-            document.querySelector(".navbar").style.background="#15372c";
+            document.getElementById("nav-communitydrop").style.visibility="visible";
+            document.querySelector(".nav-navbar").style.background="#15372c";
             document.querySelector("#sign").style.background="#15372c";
             document.querySelector("#sign").style.border="1px solid white";
         }
@@ -685,7 +686,13 @@
     function dropdown()
     {
         event.preventDefault();
-        document.getElementsByClassName("navbar")[0].classList.toggle('active');
-
+        document.getElementsByClassName("nav-navbar")[0].classList.toggle('active');
+        // document.getElementsByClassName("nav-navbar")[0].style.flexDirection = "column-reverse";
+        // document.getElementsByClassName("nav-product")[0].style.display="block";
+        // document.getElementsByClassName("nav-resource")[0].style.display="block";
+        // document.getElementsByClassName("nav-about")[0].style.display="block";
+        // document.getElementsByClassName("nav-community")[0].style.display="block";
+    
     }
+ 
 </script>
