@@ -1,0 +1,164 @@
+.footer-main{
+    /* max-width: 1170px; */
+ max-width: 900px;
+    margin: auto;
+    
+}
+.footer-main *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+} 
+.footer-main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color:#15312c ;
+    color:white;
+    padding: 70px 0;
+}
+.footer-box{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 2%;
+   
+}
+.footer-box h4{
+    font-size: 25px;
+    color: #45B398;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-box h4::before{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.footer-box ul li:not(:last-child){
+    margin-bottom: 10px;
+    font-weight: 300px;
+   
+}
+.footer-box ul li{
+    list-style: none;
+}
+.footer-box ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+  
+}
+.footer-box ul li a:hover{
+    text-decoration: underline;
+}
+@media (max-width:767px) {
+.footer-box{
+    width: 50%;
+    /* width: 30%; */
+    margin-bottom: 30px;
+}
+.footer-bottom{
+    width:50% ;
+}
+}
+@media (max-width:574px) {
+.footer-box{
+    width: 100%;
+    
+}
+
+}
+.footer-container{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-bottom{
+    /* max-width: 1170px; */
+ max-width: 300px;
+    margin: auto;
+    margin-top: -6px;
+} 
+.footer-add{
+margin-top: 20px;
+}
+.footer-left h4{
+    font-size: 20px;
+   
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-left h3
+{
+    font-size: 18px;
+    font-weight: 100;
+}
+.footer-left input{
+    width: 100%;
+    padding: 15px;
+   
+    border-radius: 5px;
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+}
+.footer-left button:hover{
+    border: 1px solid #45B398;
+    cursor: pointer;
+
+}
+.footer-left button{
+    width: 160px;
+    padding: 15px;
+   font-size: 20px;
+    border-radius: 30px;
+   color: white;
+    background-color:#15312c ;
+    border:1px solid white;
+    
+}
+.cookies p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.cookies{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+   
+}
+.cookies>div{
+    margin-left: 40px;
+}
+.cookies a{
+  margin: -10%;
+   text-decoration: underline;
+  padding-left: 50px;
+  color: white;
+  
+}
+.cookies a:hover{
+    text-decoration: none;
+}
+.footer-icon{margin-top: 20px;
+    margin-left: 14%;
+    width: 800px;
+}
+.footer-icon a{
+    color:#15312c;
+    padding: 6px;
+    font-size: 20px;
+    background-color: #45B398;
+    border-radius: 50%;
+      margin: 5px;
+}
