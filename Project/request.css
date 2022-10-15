@@ -1,0 +1,77 @@
+.demo{
+    display: flex;
+   flex-wrap: wrap;
+   height: 700px;
+
+}
+
+.demo1 {
+
+width:50%;
+
+background-color: rgb(29, 214, 69);
+color: white;
+}
+.demo1>div{
+margin: auto;
+
+width: 75%;
+margin-top: 20%;
+}
+.demo1 h1 {
+font-size: 55px;
+font-weight: 400;
+
+}
+.demo1 p {
+font-size: 20px;
+}
+.demo li {
+padding: 10px;
+font-size: 20px;
+}
+.demo2{
+background-image: url("https://wallpapers.com/images/hd/green-herbs-plant-f0vwton3eb8av939.webp");
+width: 50%;
+
+}
+.demo input,select{
+width: 100%;
+padding: 15px;
+
+border-radius: 7px;
+border: none;
+}
+.demo input:hover{
+border:1px solid red
+}
+.demo select:hover{
+border:1px solid red
+}
+.form{
+width: 300px;
+margin: auto;
+margin-top: 20%;
+
+}
+
+.demo2 button{
+padding: 16px;
+border-radius: 30px;
+width: 160px;
+border: none;
+background-color: rgb(2, 53, 53);
+font-weight: 500;
+color: white;
+margin-top: 10%;
+margin-left: 10%;
+}
+.demo2 button:hover{
+background-color: rgb(4, 170, 115);
+transform: scale(1.04);
+transition: 0.5s;
+}
+.demo2 p{
+color:rgb(2, 44, 44);
+font-size: 20px;
+}

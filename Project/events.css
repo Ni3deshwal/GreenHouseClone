@@ -1,0 +1,143 @@
+
+    .event{
+        display: flex;
+      flex-wrap: wrap;
+      background-color: #a5f3e0;
+    }
+    .event1{
+      
+        padding: 5px;
+        width: 500px;
+        height: 400px;
+       margin: auto; 
+       background-color: #dffaf3;
+       
+    }
+    .event1:hover{
+        background-color: #a5f3e0;
+        transform: scale(1.05);
+  transition: 0.2s;
+    }
+    
+    .event1 p{
+     font-size: 20px;
+    
+    }
+    .event h1{
+        font-size: 70px;
+        font-weight: 300;
+        color:#15312c;
+    }
+    .event2{
+        background-color: #a5f3e0;
+    }
+    .event2 img{
+     
+        width: 700px;
+    }
+    .event2 img:hover{
+        transform: scale(1.05);
+  transition: 0.2s;
+   }
+    .green{
+        color: #3ec0a0;
+        margin-bottom: -20px;
+    }
+    .event button{
+       padding: 18px;
+       border-radius: 30px;
+       border:none;
+       background-color: #316BC6; 
+       color:white;
+       cursor: pointer;
+       
+    }
+
+    .pastevent1{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+       padding: 70px;
+       background-color: #daf5f0;
+    }
+    .pastevent h1{
+      
+        font-size: 70px;
+        font-weight: 300;
+        color:#15312c;
+        padding-left:50px;
+    }
+    .pastevent h1:hover{
+        background-color: #15312c;
+        color: white;
+    }
+    .pastevent1 div{
+        width: 50%;
+    }
+    .pastevent1 img{
+        width: 50%;
+        margin-left: 150px;
+        justify-content: flex-end;
+    }
+    .pastevent1:hover{
+        background-color:#bdf5eb; ;
+    }
+   
+    .pastevent2{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+       padding: 70px;
+       background-color:#daf5f0;
+    }
+    .pastevent2:hover{
+        background-color:#8cfde8; ;
+    }
+   
+    .pastevent2 div{
+        width: 50%;
+    }
+    .pastevent2 img{
+        width: 50%;
+        margin-left: 150px;
+        justify-content: flex-end;
+    }
+    .pastevent3{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+       padding: 70px;
+       background-color:#daf5f0;
+    }
+    .pastevent3:hover{
+        background-color:#08e9c0; ;
+    }
+   
+    .pastevent3 div{
+        width: 50%;
+    }
+    .pastevent3 img{
+        width: 50%;
+        margin-left: 150px;
+        justify-content: flex-end;
+    }
+    .pastevent h3{
+        font-weight: 200;
+        font-size: 16px;
+    }
+    .pastevent h3:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: 200;
+    }
+    .pastevent h2{
+        font-weight: 300;
+        font-size: 40px;
+    }
+    .pastevent h3{
+        color: #054731;
+    }
+    .pastevent img:hover{
+        transform: scale(1.50);
+  transition: 0.5s;
+    }

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenhouse</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
+    
+  </head>
+  <body>
+    <!-- Navbar Section Starts Here -->
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html" id="logo"
+            ><img
+              src="https://www.greenhouse.io/assets/svg/logomark.svg"
+              alt="logo"
+          /></a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+
+          <li>
+            <a href="onboarding.html" class="desktop-item"
+              >Products & Solutions</a
+            >
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item"
+              >Products & Solutions</label
+            >
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="https://sharp.services.greenhouse.io/production/Talent-Makers-book-cover-n.png?auto=format&fit=max&lossless=true&q=90&w=426&s=39652d73de16c7719a700214bce70d443705da7a6050c920b1c5a9cdbad2d60a" alt="" />
+                </div>
+                <div class="row">
+                  <header>Products</header>
+                  <ul class="mega-links">
+                    <li><a href="recruting.html">Rercuiting</a></li>
+                    <li><a href="onboarding.html">Onboarding</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Segments</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Small to midsize</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Solutions</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Structured hiring</a></li>
+                    <li><a href="#">Talent sourcing</a></li>
+                    <li><a href="#">More solutions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--  -->
+          <li>
+            <a href="blog.html" class="desktop-item">Resources</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Resources</label>
+            <ul class="drop-menu">
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#">Guidance</a></li>
+              <li><a href="#">Customer stories</a></li>
+              <li><a href="#">Hiring glossary</a></li>
+            </ul>
+          </li>
+          <!--  -->
+          <li>
+            <a href="aboutus.html" class="desktop-item">About us</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">About us</label>
+            <ul class="drop-menu">
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Belonging</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
+          <!--  -->
+          <li>
+            <a href="events.html" class="desktop-item">Community</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Community</label>
+            <ul class="drop-menu">
+              <li><a href="events.html">Events</a></li>
+              <li><a href="#">Open</a></li>
+              <li><a href="#">Talent Makers</a></li>
+              <li><a href="#">Newsletter</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="lgn-div">
+              <button class="lgn-btn" onclick="openSignInPage()">
+                Sign in
+              </button>
+            </div>
+          </li>
+
+          <li>
+            <div class="rdemo-div">
+              <button class="rdemo-btn" onclick="openRequestDemoPage()">
+                Request Demo
+              </button>
+            </div>
+          </li>
+          <li>
+            <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+           ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+
+    </nav>  
+    <div></div>
+      <!-- Navbar Section ends here -->
+      <div class="dmy"></div>
+      <!-- Write your code here -->
+      <div id="mainPage">
+        <div id ="page1" class="block">
+          <div id="pg11">
+            <div id="txt1">
+                <p>Introducing Sourcing Automation</p>
+                <p>An efficient, personalized way to engage with talent</p>
+                <p>Sourcing Automation helps you find, reach and engage top talent quickly and effectively. Easily capture your prospects' contact information, personalize and scale your outreach and automate communication – all with Greenhouse.</p>
+                <button>See how it works</button>
+            </div>
+          </div>
+          <div id="pg12">
+            <div class="img12">
+                <img src="https://sharp.services.greenhouse.io/production/Greenhouse-homepage-sourcing-automation-product-image.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=7754fb1603c84e31364b61f5f19ee99fb18b12d2ec5fe3c3ede07d566b8a438c" alt="1">
+            </div>
+          </div>
+          
+        </div>
+        <div id="page2" class="block">
+            <div id="pg21">
+                <div class="img21">
+                    <img src="https://sharp.services.greenhouse.io/production/Example-courses-from-Learn-Greenhouse-3.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=4b38236433fd0ec2ec499990c68c8d389bada59b72deee4aa999aa0feb207445" alt="2">
+                </div>
+            </div>
+            <div id="pg22">
+                <div id="txt2">
+                    <p>Learning Greenhouse is easier than ever</p>
+                    <p>Train your team on Greenhouse and explore recruiting best practices with on-demand videos and courses. This resource library also highlights core workflow paths for recruiters, coordinators, hiring managers and interviewers.</p>
+                    <button>Start learning</button>
+                </div>
+            </div>
+        </div>
+        <div id="page3" class="block">
+            <div id="pg31">
+                <img src="https://sharp.services.greenhouse.io/production/Greenhouse-Onboarding-feedback-results.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=69579a5baea45f2ed14696fba5208bf946a9006269c549d87a70a7a6cdfe0a59" alt="1" id="changeimg">
+            </div>
+            <div id="pg32">
+                <p class="txt3">Set new hires up for success with Greenhouse Onboarding</p>
+
+                <div class="txt32">
+
+                <div class="txt321 bordersky clicked1"> 
+                    <div class="div321 clicked2"><img src="./resources/1st.jpeg" alt=""></div>
+                   <p>Integrate new hires into the team more quickly</p>
+                </div>
+                <div class="txt321 bordersky">
+                    <div class="div321"><img src="./resources/left-alignment-button.png" alt=""></div>
+                    <p>Design personal welcome experiences</p>
+                </div>
+                <div class="txt321 bordersky">
+                    <div class="div321"><img src="./resources/user.png" alt=""></div>
+                    <p>Apply consistent and fair processes</p>
+                </div>
+                <div class="txt321 bordersky">
+                    <div class="div321"><img src="./resources/list.png" alt=""></div>
+                    <p>Keep everything moving forward with automated tasks</p>
+                </div>
+                <div class="txt321">
+                    <div class="div321"><img src="./resources/refresh.png" alt=""></div>
+                    <p>Build a foundation for constant improvement</p>
+                </div>
+
+            </div>
+            
+            </div>
+        </div>
+        <div id="page4" class="block">
+            <div id="pg41">
+                <div id="txt4">
+                    <p>Is your hiring strategy ready for what’s next?</p>
+                    <p>Learn more about Greenhouse Hiring Maturity and find out if your company is moving up the curve.</p>
+                    <button>Find out</button>
+                </div>
+            </div>
+            <div id="pg42">
+                <div class="img42">
+                    <img src="https://sharp.services.greenhouse.io/production/A-man-smiling-in-a-group-of-coworkers-around-a-table.jpg?auto=format&fit=max&lossless=true&q=90&w=1440&s=a10dbb7e30cce9f6d5e2fa24078571559045d74d31386c76bce863990ceb7c90" alt="4">
+                </div>
+            </div>
+        </div>
+        <div id="page5" class="block">
+            <div id="pg51">
+                <div id="txt51">
+                    <p>Hiring Maturity, Talent strategy</p>
+                    <p>How to own every moment of your hiring experience</p>
+                </div>
+            </div>
+            <div id="pg52">
+                <div id="txt5">
+                    <p>Candidate sourcing, Hiring Maturity</p>
+                    <p>How to get better at identifying and attracting the best talent for your organization</p>
+                    <p>Climbing the Greenhouse Hiring Maturity™ curve Once you’ve understood the Greenhouse Hiring…</p>
+                </div>
+            </div>
+        </div>
+        <div id="page6" class="block">
+            <div id="pg61">
+            <!-- </img src="./resources/man.png " alt=""> -->
+            <img src="https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483__340.jpg">
+            </div>
+            <div id="pg62">
+                <div id="txt6">
+                    <p>Hiring Maturity, Talent strategy</p>
+                    <p>How to make confident, informed hiring decisions</p>
+                    <p>Climbing the Greenhouse Hiring Maturity™ curve Once you’ve understood the Greenhouse Hiring…</p>
+                    <button>More Hiring Maturity</button>
+                </div>
+            </div>
+        </div>
+        <div id="page7" class="block">
+            <div id="pg71">
+                <div id="txt71">
+                    <p>You’re in good company</p>
+                    <button>Share your thoughts on G2</button>
+                </div>
+            </div>
+            <div id="pg72">
+                <div id="icon7">
+                    <div class="card">
+                        <img src="https://sharp.services.greenhouse.io/production/Squarespace-logo.png?auto=format&fit=max&lossless=true&q=90&w=430&s=aec1ac31518b64560204c23345a186514e6e4ec7e2ed1348eeecd8a311215402" alt="1">
+                    </div>
+                    <div class="card">
+                        <img src="https://sharp.services.greenhouse.io/production/JD-Power-logo.png?auto=format&fit=max&lossless=true&q=90&w=430&s=73530e84025775b01ab82aefc5c264b382a1b58177bb3b39541f220ee8e57243" alt="2">
+                    </div>
+                    <div class="card">
+                        <img src="https://sharp.services.greenhouse.io/production/wayfair-logo.png?auto=format&fit=max&lossless=true&q=90&w=430&s=e414f9de33013b4e4cc2f07849e062caf94d813b6dcf294a71d81fd419119b9b" alt="3">
+                    </div>
+                    <div class="card">
+                        <img src="https://sharp.services.greenhouse.io/production/GitLab-logo.png?auto=format&fit=max&lossless=true&q=90&w=430&s=90343bafabaceb8b41f92ee7fcee1a5e4a07d3846b842833dd0d7ae71d394812" alt="4">
+                    </div>
+                    <div class="card">
+                        <img src="https://sharp.services.greenhouse.io/production/trivago-logo.png?auto=format&fit=max&lossless=true&q=90&w=430&s=9f43ed82ddfdf755d3a4a46fc41037853d419e5631245c17f7cd2c56b2711e5a" alt="5">
+                    </div>
+                    <div class="card">
+                        <img src="https://sharp.services.greenhouse.io/production/Doordash-logo.png?auto=format&fit=max&lossless=true&q=90&w=430&s=3cc82bd0c82a9ad8818ae611902ec4d8f35452d915ed6c2de8dec56a66cf11e2" alt="6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page8" class="block">
+            <div id="pg81">
+                <div id="txt81">
+                    <p>Distributed hiring & work</p>
+                    <p>Distributed hiring and remote working – The essential guide</p>
+                </div>
+            </div>
+            <div id="pg82">
+                <div id="txt82">
+                    <p>Distributed hiring & work</p>
+                    <p>Best practices for interactive remote interviews</p>
+                    <p>As the world moves toward increased virtual interaction with candidates, there are a number of…</p>
+                </div>
+            </div>
+        </div>
+        <div id="page9" class="block">
+            <div id="pg91">
+                <img src="./resources/homeimg.png" alt="">
+            </div>
+            <div id="pg92">
+                <div id="txt9">
+                    <p>Distributed hiring & work, Talent strategy</p>
+                    <p>How to hire in the age of remote work</p>
+                    <p>Talent teams are facing a new challenge: fully-remote hiring. How can you deliver the best…</p>
+                    <button>More on distributed hiring</button>
+                </div>
+            </div>
+        </div>
+        <div id="page10" class="block">
+            <div id="pg101">
+                <div id="txt10">
+                    <p>Share your Greenhouse experience</p>
+                    <p>Has Greenhouse helped transform your hiring practices? Let fellow business leaders and talent pros know! Because when every company is good at hiring, every person's potential can be unlocked at work.</p>
+                    <button>Add your review</button>
+                </div>
+            </div>
+            <div id="pg102">
+                <img src="https://sharp.services.greenhouse.io/production/Photo-of-brunette-woman-in-a-gray-vest-2.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=e9d7003d6a3dd294708213002ecf8fec644dcf0db4aabef51fb388eea936a485" alt="1">
+                <img id="img2" src="https://www.g2.com/products/greenhouse/widgets/stars?color=white&type=read" alt="2">
+            </div>
+        </div>
+        <div id="page11" class="block">
+            <div id="txt11">
+                <p>Ready to become great at hiring?</p>
+                <button>Request a demo</button>
+            </div>
+            <div id="pic">
+                <img src="./resources/last.png" alt="">
+                
+            </div>
+        </div>
+    </div>
+      <!-- Your code ends here -->
+
+      <!-- footer Section starts here -->
+      <!-- anjali -->
+    
+<footer class="footer">
+    <div class="footer-container ">
+        <div class="footer-main">
+           
+             
+             <div class="footer-box">
+                <h4>Products</h4>
+                <ul>
+                    <li>
+                     <a href="recruiting.html"> Recruiting</a>
+                    </li>
+                    <li>
+                     <a href="onboarding.html">Onboarding</a>
+                    </li> 
+                    <li>
+                     <a href="#">Pricing</a>
+                    </li>  
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>Resources</h4>
+                <ul>
+                    <li>
+                     <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                     <a href="#">Guidance</a>
+                    </li> 
+                    <li>
+                     <a href="#">Customer stories</a>
+    
+                    </li>  
+                    <li>
+                        <a href="#">Hiring glossary</a>
+                        
+                       </li>  
+                       <li>
+                        <a href="#">Support</a>
+                        
+                       </li>  <li>
+                        <a href="#">Developer resources</a>
+                        
+                       </li>  
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>About us</h4>
+                <ul>
+                    <li>
+                     <a href="aboutus.html"> Mission</a>
+                    </li>
+                    <li>
+                     <a href="#">Belonging</a>
+                    </li> 
+                    <li>
+                     <a href="#">Company</a>
+                    </li> 
+                    <li>
+                        <a href="#">Careers</a>
+                       </li>  
+                       <li>
+                        <a href="#">Press & awards</a>
+                       </li>  
+                       <li>
+                        <a href="request.html">Contact</a>
+                       </li>   
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>Segements</h4>
+                <ul>
+                    <li>
+                     <a href="#">Enterprise</a>
+                    </li>
+                    <li>
+                     <a href="#">Small to midsize</a>
+                    </li> 
+                    
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+               <h4>Solutions</h4>
+                <ul>
+                    <li>
+                     <a href="#">Integrations</a>
+                    </li>
+                    <li>
+                     <a href="#">Structured hiring</a>
+                    </li> 
+                    <li>
+                     <a href="#">Talent sourcing</a>
+                    </li>  
+                    <li>
+                        <a href="#"> Candidate experience</a>
+                       </li>  
+                       <li>
+                        <a href="#">Diversity,equity & inclusion</a>
+                       </li>  
+                       <li>
+                        <a href="#">More solutions</a>
+                       </li>  
+                          
+                  </ul>
+             </div> 
+             <div class="footer-box">
+                <h4>Platform</h4>
+                <ul>
+                    <li>
+                     <a href="recruiting.html"> Recruiting</a>
+                    </li>
+                    <li>
+                     <a href="onboarding.html">Onboarding</a>
+                    </li> 
+                    <li>
+                     <a href="#">Pricing</a>
+                    </li>  
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>Community</h4>
+                <ul>
+                    <li>
+                     <a href="#"> Recruiting</a>
+                    </li>
+                    <li>
+                     <a href="#">Onboarding</a>
+                    </li> 
+                    <li>
+                     <a href="#">Pricing</a>
+                    </li>  
+                   
+                  </ul>
+             </div>
+        </div>
+    <div class="footer-bottom">
+    
+    <div class="footer-left">
+        <h4>Modern Recruiter newsletter</h4>
+        <h3>Our bi-weekly newsletter full of inspiration, podcasts, trends and news.</h3>
+        <h3 class="add">Email address</h3>
+        <input><br>
+        <button>Subscribe</button>
+    </div>
+    <div class="footer-left">
+    <p>Choose your language</p>
+    <!-- <button>English (US)</button> -->
+    <button>English(US)</button>
+    
+    </div>
+    
+    </div>
+    
+    
+    <div class="cookies">
+        <div class="footer-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+         </div>
+    <div>
+        <p>©2022 Greenhouse Software, Inc.<br>
+            “Hire for what’s next” and “Greenhouse Talent Makers” are trademarks of Greenhouse Software.</p>
+    </div>
+    
+    <div>
+    <a href="#">Cookies preferences</a>
+    </div>
+    <div><a href="#">Privacy policy</a></div>
+    <div><a href="#">Terms of service</a></div>
+    </div>
+    
+    </div>
+    
+    </footer>
+    
+       </div>
+    <!-- anjali -->
+      <!-- fotter Section ends here -->
+  </body>
+</html>
+<script>
+  function openRequestDemoPage() {
+    window.location.href = "request.html";
+  }
+  function openSignInPage() {
+    window.location.href = "signin.html";
+  }
+</script>
+<script src="index.js"></script>
+
