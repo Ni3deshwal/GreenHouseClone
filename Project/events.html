@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="events.css">
+    
+  </head>
+  <body>
+    <!-- Navbar Section Starts Here -->
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html" id="logo"
+            ><img
+              src="https://www.greenhouse.io/assets/svg/logomark.svg"
+              alt="logo"
+          /></a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+
+          <li>
+            <a href="onboarding.html" class="desktop-item"
+              >Products & Solutions</a
+            >
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item"
+              >Products & Solutions</label
+            >
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="https://sharp.services.greenhouse.io/production/Talent-Makers-book-cover-n.png?auto=format&fit=max&lossless=true&q=90&w=426&s=39652d73de16c7719a700214bce70d443705da7a6050c920b1c5a9cdbad2d60a" alt="" />
+                </div>
+                <div class="row">
+                  <header>Products</header>
+                  <ul class="mega-links">
+                    <li><a href="recruting.html">Rercuiting</a></li>
+                    <li><a href="onboarding.html">Onboarding</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Segments</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Small to midsize</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Solutions</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Structured hiring</a></li>
+                    <li><a href="#">Talent sourcing</a></li>
+                    <li><a href="#">More solutions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--  -->
+          <li>
+            <a href="blog.html" class="desktop-item">Resources</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Resources</label>
+            <ul class="drop-menu">
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#">Guidance</a></li>
+              <li><a href="#">Customer stories</a></li>
+              <li><a href="#">Hiring glossary</a></li>
+            </ul>
+          </li>
+          <!--  -->
+          <li>
+            <a href="aboutus.html" class="desktop-item">About us</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">About us</label>
+            <ul class="drop-menu">
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Belonging</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
+          <!--  -->
+          <li>
+            <a href="events.html" class="desktop-item">Community</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Community</label>
+            <ul class="drop-menu">
+              <li><a href="events.html">Events</a></li>
+              <li><a href="#">Open</a></li>
+              <li><a href="#">Talent Makers</a></li>
+              <li><a href="#">Newsletter</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="lgn-div">
+              <button class="lgn-btn" onclick="openSignInPage()">
+                Sign in
+              </button>
+            </div>
+          </li>
+
+          <li>
+            <div class="rdemo-div">
+              <button class="rdemo-btn" onclick="openRequestDemoPage()">
+                Request Demo
+              </button>
+            </div>
+          </li>
+          <li>
+            <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+           ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+
+    </nav>  
+    <div></div>
+      <!-- Navbar Section ends here -->
+      <div class="dmy"></div>
+      <!-- Write your code here -->
+        
+   <div class="event">
+    <div class="event1">
+        <h4 class="green">Events</h4>
+        <h1>Let’s get together</h1>
+        <p>We love connecting with our community at Open events and anywhere Greenhouse goes. Keep in touch to see upcoming events from Greenhouse and where you can find us at other conferences and industry happenings.</p>
+        <button>See upcoming events</button>
+    </div>
+    <div class="event2">
+        <img src="https://sharp.services.greenhouse.io/production/Photo-of-a-smiling-woman-in-a-striped-sweater-m.jpg?auto=format&fit=max&lossless=true&q=90&w=2048&s=9be8fe631f0107c250d2793576d9cf298254fba7deabfdebbffa47553d0825e1">
+    </div>
+   </div>
+   <div class="pastevent">
+    <h1> Past events</h1>
+       
+    <div class="pastevent1">
+        <div class="">
+            <p>Past event: September 29, 2022</p>
+            <h2>Reporting made simple webinar series</h2>
+            <p>Reporting made simple is a multi-part webinar series designed to help you navigate Greenhouse Reporting like a pro.</p>
+            <h3>Register here</h3>
+        </div>
+        <div>
+            <img src="https://sharp.services.greenhouse.io/production/Man-sitting-on-desk-while-working-on-laptop-with-a-botanical-plant-behind-nav-image.png?auto=format&fit=max&lossless=true&q=90&w=720&s=aca7af8c5d286faf96600b1274d6678221dfcf80c26aa7093dc5133fe12c5ca6">
+        </div>
+    </div>
+   
+    <div class="pastevent2">
+    <div>
+        <p>Past event: September 20, 2022 – September 22, 2022</p>
+        <h2>Sourcing the smart way: Engaging outreach</h2>
+        <p>In this webinar, we’re sharing tips, tricks and tools to find and engage new talent so you can achieve your sourcing goals.</p>
+        <h3>Watch on demand</h3>
+    </div>
+    <div>
+        <img src="https://sharp.services.greenhouse.io/production/Woman-smiling-looking-at-laptop-and-portrait-of-man-with-botanical-plant-behind-nav-image.png?auto=format&fit=max&lossless=true&q=90&w=720&s=d74d5f0b6b91d705de3e2dbffd3b5b91e90a6c0dc9e5544e4c0dcbe8df5fd68b">
+    </div>
+</div>
+<div class="pastevent3">
+<div>
+    <p>Past event: May 24, 2022 – May 25, 2022</p>
+    <h2>Open Conference 2022</h2>
+    <p>Join us in person or virtually at the Jacob Javits Center in NYC for a two-day conference designed to elevate your hiring in real time. With hands-on training, live workshops and renowned guest speakers, Greenhouse customers will walk away with new, innovative strategies to hire for what’s next.</p>
+    <h3>Register here
+        Photo of smiling woman in a green shirt
+        </h3>
+</div>
+<div>
+    <img src="https://sharp.services.greenhouse.io/production/Photo-of-smiling-woman-in-a-green-shirt-e.png?auto=format&fit=max&lossless=true&q=90&w=720&s=cbcaf6b7925f3cf005a18d8c1b0e20887a5027ccd932db35ad53737d3c816eab">
+</div>
+</div>
+</div> 
+      <!-- Your code ends here -->
+
+      <!-- footer Section starts here -->
+      <!-- anjali -->
+    
+<footer class="footer">
+    <div class="footer-container ">
+        <div class="footer-main">
+           
+             
+             <div class="footer-box">
+                <h4>Products</h4>
+                <ul>
+                    <li>
+                     <a href="recruiting.html"> Recruiting</a>
+                    </li>
+                    <li>
+                     <a href="onboarding.html">Onboarding</a>
+                    </li> 
+                    <li>
+                     <a href="#">Pricing</a>
+                    </li>  
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>Resources</h4>
+                <ul>
+                    <li>
+                     <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                     <a href="#">Guidance</a>
+                    </li> 
+                    <li>
+                     <a href="#">Customer stories</a>
+    
+                    </li>  
+                    <li>
+                        <a href="#">Hiring glossary</a>
+                        
+                       </li>  
+                       <li>
+                        <a href="#">Support</a>
+                        
+                       </li>  <li>
+                        <a href="#">Developer resources</a>
+                        
+                       </li>  
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>About us</h4>
+                <ul>
+                    <li>
+                     <a href="aboutus.html"> Mission</a>
+                    </li>
+                    <li>
+                     <a href="#">Belonging</a>
+                    </li> 
+                    <li>
+                     <a href="#">Company</a>
+                    </li> 
+                    <li>
+                        <a href="#">Careers</a>
+                       </li>  
+                       <li>
+                        <a href="#">Press & awards</a>
+                       </li>  
+                       <li>
+                        <a href="request.html">Contact</a>
+                       </li>   
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>Segements</h4>
+                <ul>
+                    <li>
+                     <a href="#">Enterprise</a>
+                    </li>
+                    <li>
+                     <a href="#">Small to midsize</a>
+                    </li> 
+                    
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+               <h4>Solutions</h4>
+                <ul>
+                    <li>
+                     <a href="#">Integrations</a>
+                    </li>
+                    <li>
+                     <a href="#">Structured hiring</a>
+                    </li> 
+                    <li>
+                     <a href="#">Talent sourcing</a>
+                    </li>  
+                    <li>
+                        <a href="#"> Candidate experience</a>
+                       </li>  
+                       <li>
+                        <a href="#">Diversity,equity & inclusion</a>
+                       </li>  
+                       <li>
+                        <a href="#">More solutions</a>
+                       </li>  
+                          
+                  </ul>
+             </div> 
+             <div class="footer-box">
+                <h4>Platform</h4>
+                <ul>
+                    <li>
+                     <a href="recruiting.html"> Recruiting</a>
+                    </li>
+                    <li>
+                     <a href="onboarding.html">Onboarding</a>
+                    </li> 
+                    <li>
+                     <a href="#">Pricing</a>
+                    </li>  
+                   
+                  </ul>
+             </div>
+             <div class="footer-box">
+                <h4>Community</h4>
+                <ul>
+                    <li>
+                     <a href="#"> Recruiting</a>
+                    </li>
+                    <li>
+                     <a href="#">Onboarding</a>
+                    </li> 
+                    <li>
+                     <a href="#">Pricing</a>
+                    </li>  
+                   
+                  </ul>
+             </div>
+        </div>
+    <div class="footer-bottom">
+    
+    <div class="footer-left">
+        <h4>Modern Recruiter newsletter</h4>
+        <h3>Our bi-weekly newsletter full of inspiration, podcasts, trends and news.</h3>
+        <h3 class="add">Email address</h3>
+        <input><br>
+        <button>Subscribe</button>
+    </div>
+    <div class="footer-left">
+    <p>Choose your language</p>
+    <!-- <button>English (US)</button> -->
+    <button>English(US)</button>
+    
+    </div>
+    
+    </div>
+    
+    
+    <div class="cookies">
+        <div class="footer-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+         </div>
+    <div>
+        <p>©2022 Greenhouse Software, Inc.<br>
+            “Hire for what’s next” and “Greenhouse Talent Makers” are trademarks of Greenhouse Software.</p>
+    </div>
+    
+    <div>
+    <a href="#">Cookies preferences</a>
+    </div>
+    <div><a href="#">Privacy policy</a></div>
+    <div><a href="#">Terms of service</a></div>
+    </div>
+    
+    </div>
+    
+    </footer>
+    
+       </div>
+    <!-- anjali -->
+      <!-- fotter Section ends here -->
+  </body>
+</html>
+<script>
+  function openRequestDemoPage() {
+    window.location.href = "request.html";
+  }
+  function openSignInPage() {
+    window.location.href = "signin.html";
+  }
+</script>
