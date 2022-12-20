@@ -1,7 +1,7 @@
 # GreenHouseClone
 Greenhouse is an American technology company provides a recruiting software as a service. Sells annual licenses to companies, allowing them to use Greenhouse's software. Greenhouse collects into one dashboard the job seekers' applications from different routes like employment websites and referrals.
 
-In this project we have make a clone of Greenhouse Website. With our efforts and the technology stack, that we have learned so far in  Masai School.
+In this project we have made a clone of Greenhouse Website. With our efforts and the technology stack, that we have learned so far in  Masai School.
 
 ### Deployed Link
 <a>https://greenhouseclone.netlify.app</a>
